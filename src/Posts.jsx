@@ -13,7 +13,9 @@ const Posts = () => {
     
     setState(s => s.filter((_, index) => index !== removeindex));
 
-    window.location.reload();
+    if(removeindex = -1){
+        window.location.reload();
+    }
   };
 
   useEffect(()=>{
