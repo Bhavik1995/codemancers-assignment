@@ -30,7 +30,7 @@ const Posts = () => {
                     <h3>All Posts</h3>
                 </div>
 
-                <Link to="/"><i className="fa fa-arrow-left" aria-hidden="true"></i></Link>
+                <Link className='link-data' to="/"><i className="fa fa-arrow-left" aria-hidden="true"></i> Go back</Link>
             </div>      
 
                  <div className='post-data'>
